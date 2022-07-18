@@ -116,6 +116,7 @@ export function initBaseAuth(opts: BaseAuthOptions) {
     return {
         validateAccessTokenAndGetUser,
         validateAccessTokenAndGetUserWithOrg,
+        wrapValidateAccessTokenAndGetUser,
         fetchUserMetadataByUserId,
         fetchUserMetadataByEmail,
         fetchUserMetadataByUsername,
